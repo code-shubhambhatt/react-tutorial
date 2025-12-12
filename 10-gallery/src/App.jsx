@@ -48,7 +48,7 @@ const App = () => {
         <div className="flex items-center">
         <p className=" text-6xl font-bold text-red-500">Page : {index}</p>
         </div>
-        <button
+        <button 
           onClick={()=>{
             setIndex(index+1)
             console.log('Button clicked')
